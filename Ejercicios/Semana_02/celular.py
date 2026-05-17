@@ -1,0 +1,36 @@
+class Celular:
+    def __init__(self, sistema_operativo, aplicaciones, actualizaciones, configuracion, teclado, pantalla, puertos, camara, memoria, botones):
+     
+        self.sistema_operativo = sistema_operativo
+        self.aplicaciones = aplicaciones
+        self.actualizaciones = actualizaciones
+        self.configuracion = configuracion
+        self.teclado = teclado
+        self.pantalla = pantalla
+        self.puertos = puertos
+        self.camara = camara
+        self.memoria = memoria
+        self.botones = botones
+
+    def conectar_hardware_software(self):
+        print(f"El sistema operativo {self.sistema_operativo} está conectando el hardware con el software.")
+    def ejecutar_programas(self):
+        print(f"Ejecutando aplicaciones: {self.aplicaciones}. Son los programas ejecutables del dispositivo.")
+    def verificar_seguridad(self):
+        print(f"Seguimiento de seguridad activo a través del estado de actualizaciones: {self.actualizaciones}.")
+    def modificar_parametros(self):
+        print(f"Accediendo al menú de {self.configuracion} para modificar los parámetros del dispositivo.")
+    def teclear_informacion(self):
+        print(f"El teclado {self.teclado} nos permite teclear y agregar información de texto.")
+    def visualizar_contenido(self):
+        print(f"La pantalla {self.pantalla} permite visualizar todo el contenido multimedia.")
+    def conectar_dispositivos(self):
+        print(f"Los puertos de tipo {self.puertos} permiten la conexión con otros dispositivos físicos.")
+    def tomar_captura(self):
+        print(f"La cámara de {self.camara} toma capturas de lo que se le muestra en el entorno.")
+    def almacenar_informacion(self):
+        print(f"La memoria {self.memoria} almacena de forma segura la información que se indica.")
+    def interactuar_fisicamente(self):
+        print(f"Los botones de tipo {self.botones} nos permiten cierta interacción física con el equipo.")
+
+mi_celular = Celular("Android 14","WhatsApp, GitHub Mobile, Termux","Al día (Parche de Mayo)","Ajustes del Sistema","Gboard Digital","AMOLED 6.7 pulgadas","USB Type-C","50 Megapíxeles","128 GB NVMe","Volumen y Encendido")

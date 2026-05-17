@@ -4,7 +4,7 @@ class NombreClase:
         print("Constructor")
 
         
-	def metodoUno(self):
+    def metodoUno(self):
         print("Metodo uno")
             
             

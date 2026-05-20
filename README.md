@@ -37,3 +37,13 @@ git commit -m "CREATED .gitignore"
 git push -u origin main
 ````
 
+## 5. Realizar documentación 
+
+Agregar un Docs String a lor metodos generados.
+
+````python
+(""") - Indica los parametros y que hace con ellos.
+(Args) - Define las variables de entrada. 
+(Return) - Define las variables resultantes de los procesos (metodos) que se dvuelven.
+(""") - Fin y cierre de los comentarios.
+````

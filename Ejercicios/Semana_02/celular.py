@@ -23,4 +23,19 @@ class Celular:
         print(f"La memoria {self.memoria} almacena de forma segura la información que se indica.")
         print(f"Los botones de tipo {self.botones} nos permiten cierta interacción física con el equipo.")
 
+        def conectar_software_hardware(self):
+            print(f"El sistema operativo {self.sistema_operativo} está conectando el hardware con el software..")
+
+        def ejecutar_programas(self):
+            print(f"Ejecutando aplicaciones: {self.aplicaciones}. Son los programas ejecutables del dispositivo.")
+
+        def verificar_seguridda(self):
+            print(f"Seguimiento de seguridad activo a través del estado de actualizaciones: {self.actualizaciones}.")
+
+        def modificar_parametros(self):
+            print(f"Accediendo al menú de {self.configuracion} para modificar los parámetros del dispositivo.")
+
+        def vizualizar_contenido(self):
+            print(f"El teclado {self.teclado} nes permite teclear y agregar información de texto.")
+
 mi_celular = Celular("Android 14","WhatsApp, GitHub Mobile, Termux","Al día (Parche de Mayo)","Ajustes del Sistema","Gboard Digital","AMOLED 6.7 pulgadas","USB Type-C","50 Megapíxeles","128 GB NVMe","Volumen y Encendido")

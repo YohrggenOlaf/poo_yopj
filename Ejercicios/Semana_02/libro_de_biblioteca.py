@@ -23,4 +23,19 @@ class LibroDeBiblioteca:
         print(f"Editorial distribuidora: {self.editorial}")
         print(f"Género literario al que pertenece: {self.genero_literario}")
 
+        def proteger_libro(self):
+            print(f"El conductor: {self.conductor} conduce. ")
+
+        def almacenar_información(self):
+            print(f"El copiloto: {self.copiloto} apoya al conductor.")
+
+        def corazon_coche(self):
+            print(f"El motor: {self.motor} hace que el auto funcione y arranque.")
+
+        def iluminación(self):
+            print(f"Las luces: {self.luces} iluminan mejor la carretera.")
+
+        def seguridad_vial(self):
+            print(f"El espejo: {self.espejos} ayuda a revisar nuestro entorno.")
+
 redes_cisco = LibroDeBiblioteca("Blanda","Configuración de dispositivos","1-630","10-12","1","Topologías","Redes Cisco","Ernesto Ariganello","Ra-Ma Editorial","Técnico")

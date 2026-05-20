@@ -23,4 +23,19 @@ class Coche:
         print(f"Ruedas: {self.ruedas}")
         print(f"Almacenamiento: {self.almacenamiento}")
 
-chevrolet = Coche("Dueño","Acompañante","Piel","V6","LED","Retrovisor","Cristal","Estándar","R17","Amplio")
+        def conducir_vehiculo(self):
+            print(f"El conductor: {self.conductor} conduce. ")
+
+        def auxilio_conductor(self):
+            print(f"El copiloto: {self.copiloto} apoya al conductor.")
+
+        def corazon_coche(self):
+            print(f"El motor: {self.motor} hace que el auto funcione y arranque.")
+
+        def iluminación(self):
+            print(f"Las luces: {self.luces} iluminan mejor la carretera.")
+
+        def seguridad_vial(self):
+            print(f"El espejo: {self.espejos} ayuda a revisar nuestro entorno.")
+
+chevrolet = Coche("Ruben","Axel","Piel","V6","LED","Retrovisor","Cristal","Estándar","R17","Amplio")

@@ -1,5 +1,6 @@
 class Silla:
         def __init__(self,forma_asiento, altura, textura, color, material, dureza, forma_respaldo, ensamble, estilo, antiguedad):
+                
                 self.forma = forma_asiento
                 self.altura = altura
                 self.textura = textura

@@ -24,18 +24,18 @@ class LibroDeBiblioteca:
         print(f"Género literario al que pertenece: {self.genero_literario}")
 
         def proteger_libro(self):
-            print(f"El conductor: {self.conductor} conduce. ")
+            print(f"La Pasta es el recubrimiento protector: {self.pasta}.")
 
         def almacenar_información(self):
-            print(f"El copiloto: {self.copiloto} apoya al conductor.")
+            print(f"EEl contenido muestra la información del libro: {self.contenido}.")
 
-        def corazon_coche(self):
-            print(f"El motor: {self.motor} hace que el auto funcione y arranque.")
+        def separación_contenido(self):
+            print(f"Los capítulos separan el contenido: {self.capitulos}")
 
-        def iluminación(self):
-            print(f"Las luces: {self.luces} iluminan mejor la carretera.")
+        def ayuda_visual(self):
+            print(f"Las ilustraciones del libro ayuda a entender el contenido: {self.ilustraciones}.")
 
-        def seguridad_vial(self):
-            print(f"El espejo: {self.espejos} ayuda a revisar nuestro entorno.")
+        def reconocimiento_editorial(self):
+            print(f"Es el Autor del libro quien merece el reconocimiento artistico e intelectual: {self.autor}.")
 
 redes_cisco = LibroDeBiblioteca("Blanda","Configuración de dispositivos","1-630","10-12","1","Topologías","Redes Cisco","Ernesto Ariganello","Ra-Ma Editorial","Técnico")

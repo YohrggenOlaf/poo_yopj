@@ -23,4 +23,19 @@ class Transporte:
         print(f"Llantas: {self.llantas}")
         print(f"Cinturón: {self.cinturon}")
 
-microbus = Transporte("Personas","Conductor","Retrovisor","Cristales","Tela suave","Plástico duro","Estéreo","V6 sxl","37","No")
+        def conducir_vehiculo(self):
+            print(f"El conductor: {self.chofer} conduce. ")
+
+        def corazon_coche(self):
+            print(f"El motor: {self.motor} hace que el auto funcione y arranque.")
+
+        def seguridad_vial(self):
+            print(f"El espejo: {self.espejos} ayuda a revisar nuestro entorno.")
+
+        def mueven_vehiculo(self):
+            print(f"Las llantas {self.llantas} ayudan a el desplazamiento.")
+
+        def seguridad(self):
+            print(f"El cinturón: {self.cinturon} puede asegurar tu vida.")
+
+microbus = Transporte("Personas","Ejiver","Retrovisor","Cristales","Tela suave","Plástico duro","Estéreo","V6 sxl","37","No")

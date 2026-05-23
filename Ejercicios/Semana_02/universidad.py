@@ -23,20 +23,20 @@ class Universidad:
         print(f"Cantidad de salones: {self.cantidad_salones}")
         print(f"Nombre del Rector: {self.rector}")
 
-        def conducir_vehiculo(self):
-            print(f"El conductor: {self.conductor} conduce. ")
+        def mostrar_identidad(self):
+            print(f"El logotipo {self.logo} representa la identidad de la institución. ")
 
-        def auxilio_conductor(self):
-            print(f"El copiloto: {self.copiloto} apoya al conductor.")
+        def revisar_carreras(self):
+            print(f"La cuenta educativa cuenta actualmente con: {self.oferta_educativa}.")
 
-        def corazon_coche(self):
-            print(f"El motor: {self.motor} hace que el auto funcione y arranque.")
+        def automatizar_procesos(self):
+            print(f"El sistema informático {self.sistema_informatico} esta gestionando las calificaciones.")
 
-        def iluminación(self):
-            print(f"Las luces: {self.luces} iluminan mejor la carretera.")
+        def impartir_clases(self):
+            print(f"Las clases se estan dictando en la modalida: {self.modalidad}.")
 
-        def seguridad_vial(self):
-            print(f"El espejo: {self.espejos} ayuda a revisar nuestro entorno.")
+        def dirigir_institucion(self):
+            print(f"El rector {self.rector} esta firmando los títulos oficiales.")
 
 
 unideh = Universidad("logo.jpg", "Ing. software, Turismo alternativo", "San Miguel", "CADU", "Virtual", "Biblioteca digital", "Santa Catarina", None, None, "Octavio Castillo")

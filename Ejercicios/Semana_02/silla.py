@@ -1,5 +1,5 @@
 class Silla:
-    def __init__(self,forma_asiento, altura, textura, color, material, dureza, forma_respaldo, ensamble, estilo, antiguedad):
+    def __init__(self,forma_asiento, altura, textura, color, material, dureza, respaldo, ensamble, estilo, antiguedad):
                 
         self.forma = forma_asiento
         self.altura = altura
@@ -7,35 +7,35 @@ class Silla:
         self.color = color
         self.material = material
         self.dureza = dureza
-        self.respaldo = forma_respaldo
+        self.respaldo = respaldo
         self.ensamble = ensamble
         self.estilo = estilo
         self.antiguedad = antiguedad
 
-        print(f"La forma del asiento es: {forma_asiento}")
-        print(f"La altura de la silla es: {altura}")    
-        print(f"El color de la silla es: {color}")
-        print(f"La silla esta hecha de: {material}")
-        print(f"La silla cuenta con el siguiente valor de dureza: {dureza}")
-        print(f"La forma del respaldo es: {forma_respaldo}")
-        print(f"La silla esta ensamblada con: {ensamble}")
-        print(f"La silla tiene un estilo: {estilo}")
-        print(f"La silla tiene una antiguedad de: {antiguedad}")
+        print(f"La forma del asiento es: {self.forma_asiento}")
+        print(f"La altura de la silla es: {self.altura}")    
+        print(f"El color de la silla es: {self.color}")
+        print(f"La silla esta hecha de: {self.material}")
+        print(f"La silla cuenta con el siguiente valor de dureza: {self.dureza}")
+        print(f"La forma del respaldo es: {self.respaldo}")
+        print(f"La silla esta ensamblada con: {self.ensamble}")
+        print(f"La silla tiene un estilo: {self.estilo}")
+        print(f"La silla tiene una antiguedad de: {self.antiguedad}")
 
-        def conducir_vehiculo(self):
-            print(f"El conductor: {self.conductor} conduce. ")
+        def soportar_peso(self):
+            print(f"La silla de material {self.material} esta soportando de una persona")
 
-        def auxilio_conductor(self):
-            print(f"El copiloto: {self.copiloto} apoya al conductor.")
+        def brindar_confort(self):
+            print(f"El asiento de forma {self.respaldo} con textura {self.textuta} es muy comodo.")
 
-        def corazon_coche(self):
-            print(f"El motor: {self.motor} hace que el auto funcione y arranque.")
+        def reclinar_respaldo(self):
+            print(f"El respaldo con forma {self.respaldo} se adapta bien a la espalda.")
 
-        def iluminación(self):
-            print(f"Las luces: {self.luces} iluminan mejor la carretera.")
+        def verificar_desgaste(self):
+            print(f"Por su antigüedad de {self.antiguedad}, se revida si el ensamble con {self.ensamble} requiere un ajuste.")
 
-        def seguridad_vial(self):
-            print(f"El espejo: {self.espejos} ayuda a revisar nuestro entorno.")
+        def decorar_espacio(self):
+            print(f"La silla de color {self.color} y estilo {self.estilo} combina con la sala.")
 
 
 mi_gamer = Silla("Rectangular","35 cm","Terciopelo","Guinda","Madera","30–40 ILD","Ovaldado","Tornillos","Rustica","6 meses")

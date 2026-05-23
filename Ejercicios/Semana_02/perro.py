@@ -36,6 +36,6 @@ class Perro:
             print(f"El perro mueve su cola de {self.largo_de_cola} mientras juega.")
 
         def correr(self):
-            print(f"El perro corre rápido gracias a su excelente condición física.")
+            print(f"El perro trae la pelota por su alta {self.inteligencia}.")
 
 mi_perro = Perro("Pug", "30 cm", "8 kg", "Chico", "Macho", "Corto", "Arena", "3 años", "Corto y rizado", "Media")
